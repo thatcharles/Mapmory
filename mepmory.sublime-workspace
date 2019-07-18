@@ -1,0 +1,576 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Ps",
+				"PostDetail\talias"
+			],
+			[
+				"pos",
+				"postDetail"
+			],
+			[
+				"P",
+				"Postlist\tany"
+			],
+			[
+				"al",
+				"align-items\tproperty"
+			],
+			[
+				"po",
+				"postlist"
+			],
+			[
+				"add",
+				"addFriend"
+			],
+			[
+				"cons",
+				"console\t{assert(condition: mixed, ...data: Array<any>): void; clear(): void; count(label: string): void; debug(...data: Array<any>): void; dir(...data: Array<any>): void; dirxml(...data: Array<any>): void; error(...data: Array<any>): void; _exception(...data: Array<any>): void; group(...data: Array<any>): void; groupCollapsed(...data: Array<any>): void; groupEnd(): void; info(...data: Array<any>): void; log(...data: Array<any>): void; profile(name: string): void; profileEnd(): void; table(tabularData: { [key: string]: any } | Array<{ [key: string]: any }> | Array<Array<any>>): void; time(label: string): void; timeEnd(label: string): void; timeStamp(label?: string): void; trace(...data: Array<any>): void; warn(...data: Array<any>): void; }"
+			],
+			[
+				"d",
+				"dataCenter"
+			],
+			[
+				"L",
+				"Lat"
+			],
+			[
+				"ca",
+				"CameraOffset"
+			],
+			[
+				"t",
+				"true"
+			],
+			[
+				"backgroun",
+				"background-image\tproperty"
+			],
+			[
+				"h",
+				"height\tproperty"
+			],
+			[
+				"ro",
+				"row-12-mobilep"
+			],
+			[
+				"F",
+				"First"
+			],
+			[
+				"Na",
+				"NavigationMode"
+			],
+			[
+				"p",
+				"pivot"
+			],
+			[
+				"co",
+				"connections"
+			],
+			[
+				"c",
+				"count"
+			],
+			[
+				"i",
+				"insert"
+			],
+			[
+				"pi",
+				"pivot"
+			],
+			[
+				"N",
+				"Neighbor"
+			],
+			[
+				"in",
+				"intersectPNV"
+			],
+			[
+				"s",
+				"size"
+			],
+			[
+				"n",
+				"neighbor"
+			],
+			[
+				"v",
+				"vertice"
+			],
+			[
+				"u",
+				"unionPX"
+			],
+			[
+				"e",
+				"endl"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/posts/postlist.js",
+			"settings":
+			{
+				"buffer_size": 1424,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/posts/PostDetail.js",
+			"settings":
+			{
+				"buffer_size": 1773,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/data/posts.json",
+			"settings":
+			{
+				"buffer_size": 386,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"set",
+				"Set Syntax: TypeScript"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"pa",
+				"Package Control: Advanced Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control",
+				"Install Package Control"
+			],
+			[
+				"rename",
+				"Rename File"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/charleschung/Dev/reactenv/mapmory",
+		"/Users/charleschung/Dev/reactenv/mapmory/src",
+		"/Users/charleschung/Dev/reactenv/mapmory/src/data",
+		"/Users/charleschung/Dev/reactenv/mapmory/src/posts"
+	],
+	"file_history":
+	[
+		"/Users/charleschung/Desktop/TH bundle upselling.html",
+		"/Users/charleschung/Desktop/KR_edm.html",
+		"/Users/charleschung/Desktop/TW.html",
+		"/Users/charleschung/Dev/reactenv/mapmory/src/data/posts.json",
+		"/Users/charleschung/Desktop/ZH-MY bundle upselling.html",
+		"/Users/charleschung/Desktop/EN bundle upselling.html",
+		"/Users/charleschung/Desktop/EN_Bundle_upselling.json",
+		"/Users/charleschung/Dev/ReactVENV/env/FirstTry/package.json",
+		"/Users/charleschung/Dev/ReactVENV/env/FirstTry/package-lock.json",
+		"/Users/charleschung/Desktop/tw bundle.html",
+		"/Users/charleschung/Desktop/VN bundle upselling.html",
+		"/Users/charleschung/Dev/ReactVENV/env/test/package.json",
+		"/Users/charleschung/Desktop/messages/inbox/zhangjiacheng_wsh8OpAm8A/message_1.json",
+		"/Users/charleschung/Desktop/intelligent_noti-master/userdata/Hank/line-2-陳冠穎.json",
+		"/Users/charleschung/Desktop/untitled",
+		"/Users/charleschung/generate_refresh_token.py",
+		"/Users/charleschung/Desktop/SEA_EDM.html",
+		"/Users/charleschung/Desktop/527.js",
+		"/Users/charleschung/Desktop/test1.html",
+		"/Users/charleschung/Desktop/new ad report.js",
+		"/Users/charleschung/Desktop/ad manager report.js",
+		"/Users/charleschung/Desktop/manager ads report.js",
+		"/Users/charleschung/Desktop/manager ads report.javascript",
+		"/Users/charleschung/Desktop/GAdwords backup",
+		"/Users/charleschung/Downloads/GAdwords backup",
+		"/Users/charleschung/Downloads/GA temp",
+		"/Users/charleschung/Downloads/KR_upselling_보라카이.html",
+		"/Users/charleschung/Desktop/EN EDM.html",
+		"/Users/charleschung/Desktop/no coupon.html",
+		"/Users/charleschung/Desktop/yes coupon.html",
+		"/Users/charleschung/Solution.py",
+		"/Users/charleschung/import sys.py",
+		"/Users/charleschung/get_ad_groups.py",
+		"/Users/charleschung/get_campaigns.py",
+		"/Users/charleschung/Library/Application Support/Postgres/var-11/postgresql.conf",
+		"/Users/charleschung/Document/2019 Spring/KKDAY實習/hellowworld/helloworld.java",
+		"/Users/charleschung/googleads.yaml",
+		"/Users/charleschung/Desktop/#product/SEA_Up-Selling_Test_NoCoupon.html",
+		"/Users/charleschung/Desktop/edm_new.html",
+		"/Users/charleschung/Desktop/SEA_Up-Sale_EDM.json",
+		"/Users/charleschung/Desktop/JP.html",
+		"/Users/charleschung/Desktop/new.html",
+		"/Users/charleschung/Desktop/test.html",
+		"/Users/charleschung/Desktop/EDM.html",
+		"/Users/charleschung/Desktop/Hints for good SoP",
+		"/Users/charleschung/Desktop/test",
+		"/Users/charleschung/Document/2019 Spring/KKDAY實習/cid_research/.ipynb_checkpoints/CSV insert and concatenate-checkpoint.ipynb",
+		"/Users/charleschung/Document/2019 Spring/KKDAY實習/GoT/GoT2019 email.html",
+		"/Users/charleschung/Document/2018 Spring/Data Science/HW4/Charlie Brown_nthu/103062218.py",
+		"/Users/charleschung/Document/2018 Spring/Data Science/HW3/103062218.py",
+		"/Users/charleschung/Desktop/GoT2019 email.html",
+		"/Users/charleschung/Desktop/GOT2019.html",
+		"/Users/charleschung/Library/Application Support/Sublime Text 3/Packages/HTML-CSS-JS Prettify/.jsbeautifyrc.defaults.json",
+		"/Users/charleschung/Library/Application Support/Sublime Text 3/Packages/User/.jsbeautifyrc",
+		"/Users/charleschung/Desktop/GoT campaign.html",
+		"/Users/charleschung/Desktop/GOT2019 (1).html",
+		"/Users/charleschung/Desktop/GoT Campaign.eml",
+		"/Users/charleschung/Document/2018 Spring/Data Science/HW1/Assignment 1/103062218.py",
+		"/Users/charleschung/Desktop/map.html",
+		"/Users/charleschung/Desktop/polyline.js",
+		"/Users/charleschung/Document/2019 Spring/Vue Learning/main.js",
+		"/Users/charleschung/Document/2019 Spring/Vue Learning/main_1-4.js",
+		"/Users/charleschung/Document/2018 one step further/Website/html5up-alpha/assets/js/main.js",
+		"/Users/charleschung/Document/VENV/src/posts/views.py",
+		"/Users/charleschung/Document/2019 Spring/Vue Learning/index.html",
+		"/Users/charleschung/Library/Application Support/Sublime Text 3/Packages/TerminalView/README.md",
+		"/Users/charleschung/Document/2018 one step further/Website/html5up-alpha/VUI.html",
+		"/Users/charleschung/Document/2018 one step further/Website/html5up-alpha/Meteore.html",
+		"/Users/charleschung/Document/2018 one step further/Website/html5up-alpha/KE.html",
+		"/Users/charleschung/Document/2018 one step further/Website/html5up-alpha/Insightgram.html",
+		"/Users/charleschung/Document/2018 one step further/Website/html5up-alpha/index.html",
+		"/Users/charleschung/Document/AR navigation/AR_Navigation/Assets/Script/GoogleMapAPI.cs",
+		"/Users/charleschung/Document/2018 one step further/文件/DS Final Project/ds2015f_final/readonly/main.cpp",
+		"/Users/charleschung/Document/2018 one step further/文件/DS Final Project/ds2015f_final/UBikeHeapIMP.cpp",
+		"/Users/charleschung/Document/2018 one step further/文件/DS Final Project/ds2015f_final/UBikeHashTableIMP.cpp",
+		"/Users/charleschung/Document/2018 one step further/文件/DS Final Project/ds2015f_final/PriceTableIMP.cpp",
+		"/Users/charleschung/Document/2018 one step further/Website/html5up-alpha/HopeEnglish.html",
+		"/Users/charleschung/Document/2018 one step further/Website/html5up-alpha/WhoMatters.html",
+		"/Users/charleschung/Document/2018 one step further/Website/html5up-alpha/ARNavigation.html",
+		"/Users/charleschung/Document/2018 one step further/Website/html5up-alpha/assets/css/main.css",
+		"/Users/charleschung/Document/2018 one step further/Website/html5up-alpha/generic.html",
+		"/Users/charleschung/Document/AR navigation/AR_Navigation/Assets/Script/ARNavigationController.cs",
+		"/Users/charleschung/Document/AR navigation/AR_Navigation/Assets/Script/SingleRoute.cs",
+		"/Users/charleschung/Document/2018 Spring/Data Science/HW5/YoSuperStar_nthu/103062218.py",
+		"/Users/charleschung/Document/2018 Spring/Data Science/HW5/article.txt",
+		"/Users/charleschung/Document/2018 Spring/Data Science/HW4/HW3.py",
+		"/Users/charleschung/Document/AR navigation/AR_Navigation/Assets/GoogleARCore/Examples/CloudAnchor/Scripts/AnchorIdFromRoomRequestMessage.cs",
+		"/Users/charleschung/Document/2018 Spring/Data Science/Final Project/Clustering.ipynb",
+		"/Users/charleschung/Desktop/大成教授",
+		"/Users/charleschung/Document/2018 one step further/html5up-solid-state/index.html",
+		"/Users/charleschung/Document/2018 one step further/html5up-solid-state/assets/css/main.css",
+		"/Users/charleschung/Document/2018 Spring/交大/iNoti/intelligent_noti/script/get_contact_log.py",
+		"/Users/charleschung/Document/2018 Spring/交大/iNoti/intelligent_noti/userdata/賴俊文/fb-賴旭昭.json",
+		"/Users/charleschung/Document/2018 Spring/交大/iNoti/intelligent_noti/userdata/陳昱辰/fb-徐挺軒.json",
+		"/Users/charleschung/Document/2018 Spring/交大/iNoti/intelligent_noti/userdata/張碩芬/fb-嘉佳.json",
+		"/Users/charleschung/Document/2018 Spring/交大/iNoti/intelligent_noti/userdata/官家妤/line-陳文蘭.json",
+		"/Users/charleschung/Document/2018 Spring/交大/iNoti/intelligent_noti/userdata/官家妤/fb-郭芝瑜.json",
+		"/Users/charleschung/Document/2018 Spring/交大/iNoti/intelligent_noti/userdata/王作君/fb-朱倍萱.json",
+		"/Volumes/Transcend/FB_backup/messages/9yueshuishengri_2fcdac9de3/message.json",
+		"/Users/charleschung/Desktop/資工實驗/messages/lujianli_c06267f8a7/message.json",
+		"/Users/charleschung/Desktop/資工實驗/messages/suntingxuan_df9d6a66db/message.json",
+		"/Users/charleschung/Document/2018 Spring/交大/iNoti/intelligent_noti/userdata/王崇宇/fb-尤柏勛.json",
+		"/Users/charleschung/Document/2018 Spring/交大/iNoti/intelligent_noti/script/select_contact.py",
+		"/Users/charleschung/Document/2018 Spring/Data Science/HW6/103062218_HW6/main.cpp",
+		"/Users/charleschung/Document/2018 Spring/Data Science/HW6/103062218_HW6_2/main.cpp",
+		"/Users/charleschung/Document/2018 Spring/Data Science/HW6/sample.cpp",
+		"/Users/charleschung/Document/2018 Spring/Data Science/HW6/mtClique.cpp",
+		"/Users/charleschung/Document/2018 Spring/Data Science/HW6/clique.cpp",
+		"/Users/charleschung/Document/2018 Spring/Data Science/Final Project/school/TKU.csv",
+		"/Users/charleschung/Document/2018 Spring/Data Science/Final Project/Keyword.py",
+		"/Users/charleschung/Document/2018 Spring/Data Science/Final Project/Keyword&Clustering_method1.py",
+		"/Users/charleschung/Desktop/ins-crawler 2/crawler.py",
+		"/Users/charleschung/Document/2018 Spring/Data Science/HW5/103062218.py",
+		"/Users/charleschung/Document/2018 Spring/Data Science/Final Project/second_try.h5",
+		"/Users/charleschung/Document/2018 Spring/Data Science/Final Project/Image Sentiment.py",
+		"/Users/charleschung/Document/2018 Spring/Data Science/Final Project/first_try.h5",
+		"/Users/charleschung/Document/2018 Spring/Data Science/Final Project/answer.txt",
+		"/Users/charleschung/Desktop/sentiment-2017-imavis-master/sentiment_deploy.prototxt",
+		"/Users/charleschung/Desktop/twitter_finetuned_test4_iter_180.caffemodel",
+		"/Users/charleschung/Desktop/AssetTransfer.sol",
+		"/Users/charleschung/Desktop/assetTransfer.sol",
+		"/Users/charleschung/Desktop/assetTransfer.json",
+		"/Users/charleschung/Document/2018 Spring/交大/iNoti/intelligent_noti/userdata/黃威鈞/fb-Q Per Heng.json",
+		"/Users/charleschung/Document/2018 Spring/Data Science/Final Project/loadcnn.py",
+		"/Users/charleschung/Document/2018 Spring/交大/iNoti/intelligent_noti/script/contacts_to_db.py",
+		"/Users/charleschung/Document/2018 Spring/Data Science/Final Project/Dockerfile",
+		"/Users/charleschung/Downloads/twitter_finetuned_test4_iter_180.caffemodel",
+		"/Users/charleschung/Desktop/103062218.py"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/posts/postlist.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1424,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1334,
+								1334
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"typescript_plugin_format_options":
+							{
+								"convertTabsToSpaces": true,
+								"indentSize": 2,
+								"tabSize": 2
+							},
+							"use_tab_stops": false,
+							"word_separators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/posts/PostDetail.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1773,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								826,
+								844
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/TypeScript/TypeScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"typescript_plugin_format_options":
+							{
+								"convertTabsToSpaces": true,
+								"indentSize": 2,
+								"tabSize": 2
+							},
+							"use_tab_stops": false,
+							"word_separators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?"
+						},
+						"translation.x": 0.0,
+						"translation.y": 58.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/data/posts.json",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 386,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								339,
+								339
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.doc":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "mepmory.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 246.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
