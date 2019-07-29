@@ -1,9 +1,55 @@
-import { GoogleApiWrapper } from 'google-maps-react'
+import React, { Component } from 'react'
+import { GoogleMap, withScriptjs, withGoogleMap, Marker, InfoWindow } from 'react-google-maps'
+import MapStyles from './MapStyles'
 
-// ...
+class MapContainer extends Component () {
 
-export class MapContainer extends React.Component {}
+	constructor(props){
+	    super(props)
+	    this.state={
+	    	location: null
+	    }
+	}
 
-export default GoogleApiWrapper({
-  apiKey: (YOUR_GOOGLE_API_KEY_GOES_HERE)
-})(MapContainer)
+	setLocation = (location) => {
+	  	this.setState({
+	  		loctaion: location
+	 	})
+	}
+
+	render () {
+		const {location} = this.state 
+	  return (
+
+	    <GoogleMap defaultZoom={14} defaultCenter={{ lat: 24.813829, lng: 120.967484 }}>
+	      <Marker
+	        position={{
+	          lat: 24.813829,
+	          lng: 120.967484
+	        }}
+	        onClick={() => {
+	          this.setLocation('new location')
+	        }}
+	      />
+
+	      {location && (
+	        	<InfoWindow
+	          onCloseClick={() => { this.setLocation(null) }}
+	          position={{
+			            lat: 24.813829,
+			            lng: 120.967484
+			        }}
+			    >
+	          <div>
+	            <h2>Your Selected Location</h2>
+	            <p><input type='text' placeholder='MyInputBlockComponent input name' name='myInput' /></p>
+	          </div>
+	        	</InfoWindow>
+
+	      )}
+	    </GoogleMap>
+	  )
+	}
+}
+
+export default MapContainer
