@@ -1,55 +1,77 @@
-import React, { Component } from 'react'
-import { GoogleMap, withScriptjs, withGoogleMap, Marker, InfoWindow } from 'react-google-maps'
+import React, { useState, useEffect } from 'react'
+import {
+  withGoogleMap,
+  withScriptjs,
+  GoogleMap,
+  Marker,
+  InfoWindow
+} from 'react-google-maps'
+import * as parkData from './data/skateboard-parks.json'
 import MapStyles from './MapStyles'
+const { InfoBox } = require('react-google-maps/lib/components/addons/InfoBox')
 
-class MapContainer extends Component () {
+function Map () {
+  const [selectedPark, setSelectedPark] = useState(null)
 
-	constructor(props){
-	    super(props)
-	    this.state={
-	    	location: null
-	    }
-	}
+  useEffect(() => {
+    const listener = e => {
+      if (e.key === 'Escape') {
+        setSelectedPark(null)
+      }
+    }
+    window.addEventListener('keydown', listener)
 
-	setLocation = (location) => {
-	  	this.setState({
-	  		loctaion: location
-	 	})
-	}
+    return () => {
+      window.removeEventListener('keydown', listener)
+    }
+  }, [])
 
-	render () {
-		const {location} = this.state 
-	  return (
+  function handleClick (event) {
+  	const lat = event.latLng.lat(); const lng = event.latLng.lng()
+  	console.log(event.placeId)
+  }
 
-	    <GoogleMap defaultZoom={14} defaultCenter={{ lat: 24.813829, lng: 120.967484 }}>
-	      <Marker
-	        position={{
-	          lat: 24.813829,
-	          lng: 120.967484
-	        }}
-	        onClick={() => {
-	          this.setLocation('new location')
-	        }}
-	      />
+  return (
+    <GoogleMap
+      defaultZoom={10}
+      defaultCenter={{ lat: 45.4211, lng: -75.6903 }}
+      onClick={(e) => handleClick(e)}
+    >
+      {parkData.features.map(park => (
+        <Marker
+          key={park.properties.PARK_ID}
+          position={{
+            lat: park.geometry.coordinates[1],
+            lng: park.geometry.coordinates[0]
+          }}
+          onClick={() => {
+            setSelectedPark(park)
+          }}
+        />
+      ))}
 
-	      {location && (
-	        	<InfoWindow
-	          onCloseClick={() => { this.setLocation(null) }}
-	          position={{
-			            lat: 24.813829,
-			            lng: 120.967484
-			        }}
-			    >
-	          <div>
-	            <h2>Your Selected Location</h2>
-	            <p><input type='text' placeholder='MyInputBlockComponent input name' name='myInput' /></p>
-	          </div>
-	        	</InfoWindow>
-
-	      )}
-	    </GoogleMap>
-	  )
-	}
+      {selectedPark && (
+        <InfoWindow
+          onCloseClick={() => {
+            setSelectedPark(null)
+          }}
+          position={{
+            lat: selectedPark.geometry.coordinates[1],
+            lng: selectedPark.geometry.coordinates[0]
+          }}
+        >
+          <div>
+            <h2>{selectedPark.properties.NAME}</h2>
+            <p>{selectedPark.properties.DESCRIPTIO}</p>
+            <p><input type='text' placeholder='input your name' name='myFullName' /></p>
+            <p><button>Submit</button></p>
+          </div>
+        </InfoWindow>
+      )}
+    </GoogleMap>
+  )
 }
 
-export default MapContainer
+const MapWrapped = withScriptjs(withGoogleMap(Map))
+
+export default MapWrapped

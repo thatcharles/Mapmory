@@ -3,7 +3,7 @@ import React, { Component } from "react";
 import { Map, Marker, GoogleApiWrapper } from "google-maps-react";
 import InfoWindowEx from "./InfoWindow";
 
-
+import {MyInputBlockComponent} from '../learn/FormsAndInputs'
 
 const style = {
   height: '500px'
@@ -14,8 +14,10 @@ export class MapContainer extends Component {
     this.state = {
       showingInfoWindow: false,
       activeMarker: {},
-      selectedPlace: {}
+      selectedPlace: {},
+      location: null,
     };
+    this.inputTextAreaRef = React.createRef()
   }
 
   onMarkerClick = (props, marker, e) => {
@@ -28,11 +30,34 @@ export class MapContainer extends Component {
 
   showDetails = place => {
     console.log(place);
+
   };
 
+  handleClick = (event) => {
+    const lat = event.latLng.lat()
+    const lng = event.latLng.lng()
+    console.log(lat,lng);
+  }
+
+  handleInputChange = (event) => {
+    event.preventDefault()
+    this.inputTextAreaRef.current.focus()
+    this.setState({
+      [event.target.name]: event.target.value
+    })
+  }
+
+  componentDidMount () {
+    this.setState({
+      location: 'Taiwan'
+    })
+  }
+
   render() {
+    const {location} = this.state
     return (
       <div className="map-container">
+        <p>Your content is: {location}</p>
         <Map
           google={this.props.google}
           className={"map"}
@@ -56,8 +81,8 @@ export class MapContainer extends Component {
           >
             <div>
               <h3>{this.state.selectedPlace.name}</h3>
-              <input type='text' placeholder='input your name' name='myFullName'/>
-              <button
+              <MyInputBlockComponent inputRef={this.inputTextAreaRef} onChange={this.handleInputChange} inputContentName='location'/>
+              <button name="detailButton"
                 type="button"
                 onClick={this.showDetails.bind(this, this.state.selectedPlace)}
               >

@@ -11,7 +11,7 @@ function MyTextInput(props){
   )
 }
 
-class MyInputBlockComponent extends Component {
+class MyInputBlockComponent1 extends Component {
   constructor(props){
     super(props)
     this.textInput = null
@@ -26,7 +26,7 @@ class MyInputBlockComponent extends Component {
   handleChange = event => {
     if (this.props.onChange) this.props.onChange(event)
   }
-
+  
   componentDidMount (){
     this.focusTextInput()
   }
@@ -37,6 +37,35 @@ class MyInputBlockComponent extends Component {
         <p><input type='text' placeholder='MyInputBlockComponent input name' name={this.props.inputFullnameName} onChange={this.handleChange}></input></p>
         <p><textarea ref={this.setTextInputRef} placeholder='MyInputBlockComponent Content' name={this.props.inputContentName} onChange={this.handleChange}></textarea></p>
         <p><textarea ref={this.props.inputRef} placeholder='MyInputBlockComponent Content 2' name='other name' onChange={this.handleChange}></textarea></p>
+      </div>
+      )
+  }
+}
+
+class MyInputBlockComponent extends Component {
+  constructor(props){
+    super(props)
+    this.focusTextInput = () => {
+      this.props.inputRef.current.focus()
+    }
+  }
+
+  handleChange = event => {
+    if (this.props.onChange) this.props.onChange(event)
+  }
+ 
+  componentDidMount (){
+    this.focusTextInput()
+  }
+
+  componentDidUpdate (){
+    this.focusTextInput()
+  }
+
+  render () {
+    return (
+      <div>
+        <p><textarea ref={this.props.inputRef} placeholder='Enter your Note' name={this.props.inputContentName} onChange={this.handleChange}></textarea></p>
       </div>
       )
   }
@@ -120,4 +149,5 @@ class FormsAndInputs extends Component {
 
 }
 
+export {MyInputBlockComponent}
 export default FormsAndInputs
